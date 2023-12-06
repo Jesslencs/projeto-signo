@@ -54,19 +54,30 @@ function CalculateSign() {
     
 
 
+resultContainer.style.display = 'block';
 
-    resultContainer.style.display = 'block';
-    resultContainer.innerHTML = `<h4>Olá, ${name}!</h4><p>Seu signo é ${sign}.</p><div class="sign-text">${signText}</div>`;
-    resultContainer.classList.add('result-container');
-   
+// Atualizando nome do resultado
+const resultName = document.getElementById('result-name');
+resultName.textContent = name;
 
-    formSection.style.display = 'none';
+// Atualizando o resultado do signo
+const resultSign = document.getElementById('result-sign');
+resultSign.textContent = sign;
 
-    const footer = document.querySelector('footer');
-    footer.style.display = 'none';
+// Adicionando o texto do siigno
+const signTextElement = document.getElementById('sign-text');
+signTextElement.style.display = 'block';
+signTextElement.innerHTML = `<p>${signText}</p>`;
 
-    const textInfoElement = document.querySelector('.textinfo');
-    textInfoElement.style.display = 'none';
+// Removendo a classe não utilizada
+resultContainer.classList.add('result-container');
 
+formSection.style.display = 'none';
+footer.style.display = 'none';
+textInfoElement.style.display = 'none';
+
+
+
+    
 }
     

@@ -1,0 +1,257 @@
+@charset "utf-8" ;
+
+body{
+    background-color: black;
+    background-image:url('imagens/universo.jpg' ); 
+    color: white;
+    height: 100vh;
+    background-size: cover;
+
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+#title{
+    flex-direction: column;
+    line-height: 10px;
+}
+
+li{
+    display: inline-block;
+    margin: 20px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+a:hover{
+    background-color: rgb(132, 14, 201);
+    transition: 0.3s all;
+    border: 2px solid blueviolet;
+    padding: 10px;
+    border-radius: 20px;
+   
+    
+}
+.textinfo{
+    background: #000000;
+    opacity:0.8;
+    padding: 20px;
+    width: 900px;
+    margin: auto;
+    border: 2px solid rgba(0, 0, 0, 0.486);
+    border-radius: 20px ;
+    box-shadow: 5px blueviolet ;
+    
+
+}
+
+section{
+    padding-bottom: 50px;
+    margin-bottom: 20px;
+    background: black;
+    opacity: 0.8;
+    width: 50%;
+    height: 100;
+    text-align: center;
+    margin: auto;
+    border-radius: 15px;
+    box-shadow: 2px solid black;
+    
+
+}
+
+#titleh{
+    color: blueviolet;
+    font-size: 1.5em;
+    padding: 20px;
+    font-family: 'Vina Sans', cursive;
+    
+}
+
+p{
+    font-family: 'Noto Serif Khojki', serif;
+    font-size: 20px;
+    padding-right: 15px;
+    
+
+}
+
+.input-box{
+
+    padding: 10px;
+    text-align: center; 
+    border-radius: 8px;
+    
+
+}
+#name{
+    border-radius: 8px;
+    border: 2px solid black;
+    font-size: 15px;
+}
+#dateof{
+    border-radius: 8px;
+    font-size: 16px;
+    border:2px solid black;
+    color: gray;
+}
+
+#buttonclick{
+    border: 2px solid black;
+    border-radius: 15px;
+    background: blueviolet;
+    font-size: 20px;
+    font-family: inherit;
+    color: white;
+    margin-right: auto;
+    margin-left: auto;
+    cursor: pointer;
+    box-shadow: 4px 4px 0px black
+    
+
+    
+}
+#buttonclick:hover{
+transform: scale(1.2);
+}
+
+.ecopy{
+    text-align: center;
+    border: 2px solid black;
+    background: black;
+    border-radius: 2px;
+    
+
+}
+h2{
+    color:blueviolet ;
+    text-align: center;
+    font-family: 'Vina Sans', cursive;
+    font-size: 30px;
+    
+}
+
+.textprin{
+    text-align: center;
+}
+
+    
+/* Adicione ao seu arquivo CSS existente */
+
+.result-container{
+    
+    
+    padding: 20px;
+    border-radius: 15px;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+
+}
+
+.result-container h4 {
+
+    color: #ff6347;
+    font-size: 28px;
+    margin-bottom: 10px;
+
+    
+}
+
+.result-container h4 span {
+    background-color: #ff6347;
+    padding: 5px;
+    border-radius: 5px;
+    color: white;
+}
+
+.result-container p {
+    
+    color: #4caf50;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.result-container h3 {
+    margin-top: 10px;
+}
+
+.result-container h3 span {
+    background-color: #4CAF50; /* Cor de fundo para destacar */
+    padding: 5px; /* Adiciona um pequeno preenchimento */
+    border-radius: 5px; /* Adiciona bordas arredondadas */
+    color: white; /* Cor do texto dentro do span */
+}
+
+
+
+
+@keyframes bounceIn {
+    
+    
+    from{
+        transform: translateY(-50px) ;
+        opacity: 0;
+    }
+    to{
+        transform: translateY(0);
+        opacity: 1;
+    }
+    }
+        
+    
+
+
+
+    .sign-text {
+        font-size: 14px;
+        padding: 10px;
+        border-radius: 8px;
+        color: #fff;
+        background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), transparent;
+        border: 2px solid #000;
+        margin-bottom: 20px;
+        width: 60%; /* Reduzi a largura para 60% */
+        margin-left: 20%; /* Centraliza o contêiner */
+        position: relative;
+        font-family: 'Comic Sans MS', cursive;
+    }
+    
+    /* Adiciona animação headShake ao texto */
+    @keyframes headShake {
+        0% {
+            transform: translateX(0);
+        }
+        6.25% {
+            transform: translateX(-6px) rotateY(-9deg);
+        }
+        12.5% {
+            transform: translateX(5px) rotateY(7deg);
+        }
+        18.75% {
+            transform: translateX(-3px) rotateY(-5deg);
+        }
+        25% {
+            transform: translateX(2px) rotateY(3deg);
+        }
+        31.25% {
+            transform: translateX(0);
+        }
+        100% {
+            transform: translateX(0);
+        }
+    }
+    
+    /* Aplica a animação headShake ao texto */
+    .sign-text p {
+        animation: headShake 1s ease-in-out;
+    }
+    
