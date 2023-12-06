@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaquery.css">
+    <title>Mapa Astral</title>
+</head>
+<body>
+    <header>
+        <div id="title">
+            <h1>AstralSign</h1>
+        </div>
+
+        <ul>
+            <li><a href="#">informaçôes</a></li>
+            <li> <a href="#">Minha conta</a></li>
+            <li> <a href="#"> Cadastra-se</a></li>
+        </ul>
+    </header>
+    
+        <article class="textinfo">
+
+
+              <h2>Descubra sobre seu signo solar!</h2>
+            <p class="textprin"> O signo solar ocupa a posição em relação a Terra no momento do seu nascimento.<br> Descobrindo mais sobre seu signo solar vai conseguir entender mais sobre seu papel no mundo.</p>
+            
+
+        </article>
+        <section>
+            <h3 id="titleh"> Descubra agora!</h3>
+            <p> Coloque seu nome e sua data de aniversario,<br>para adivinhar mais sobre você!</p>
+
+          <form class="input-box">
+            <label for="name">Nome:</label>
+            <input type="text" id="name" name="name" placeholder="Digite seu nome"><br><br>
+            <label for="date">Data de aniversário:</label>
+            <input type="date" id="dateof" name="dateof"><br><br><br>
+            <button id="buttonclick" type="button" onclick="CalculateSign()"> Calcular Signo </button>
+            
+          </form>
+
+         
+          
+
+        </section>
+
+             <div class="result-box" id="result-container" style="display: none;"></div>
+
+             <div class="sign-text" id="sign-text" style="display: none;"></div>
+
+         
+        
+
+
+        <footer >
+            <p class="ecopy" id="footer">&copy; Criado por Jessica Alencar</p>
+        </footer>
+    
+
+
+    <script src="script.js"></script>
+
+
+    
+    
+    
+</body>
+</html>
