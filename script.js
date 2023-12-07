@@ -2,6 +2,7 @@ function CalculateSign() {
 
     const formSection = document.querySelector('section');
     const resultContainer = document.getElementById('result-container');
+    const signInfoSection = document.querySelector('.textinfo');
    
     
     
@@ -51,33 +52,43 @@ function CalculateSign() {
         sign = 'Peixes';
         signText = 'Piscianos costumam ter forte intuição e guiam as ações com base nas emoções. Peixes está ligado a diversas virtudes, são compreensivos, compassivos, empáticos e humildes. Por amor ao próximo, são capazes de se doar totalmente a algum objetivo, esquecendo, às vezes, até de si próprios.';
     }
+
+
+    
     
 
 
-resultContainer.style.display = 'block';
+    resultContainer.style.display = 'block';
+    
+    // Atualizando nome do resultado
+    const resultName = document.getElementById('result-name');
+    resultName.textContent = name;
+    
+    // Atualizando o resultado do signo
+    const resultSign = document.getElementById('result-sign');
+    resultSign.textContent = sign;
+    
+    // Adicionando o texto do siigno
+    const signTextElement = document.getElementById('sign-text');
+    signTextElement.style.display = 'block';
+    signTextElement.innerHTML = `<p>${signText}</p>`;
+    
+    // Removendo a classe não utilizada
+    resultContainer.classList.add('result-container');
+    
+    formSection.style.display = 'none';
+    footer.style.display = 'none';
+    
+    const textInfoArticle = document.querySelector('.textinfo');
+    textInfoArticle.style.display = 'none';
+    
+    
 
-// Atualizando nome do resultado
-const resultName = document.getElementById('result-name');
-resultName.textContent = name;
 
-// Atualizando o resultado do signo
-const resultSign = document.getElementById('result-sign');
-resultSign.textContent = sign;
 
-// Adicionando o texto do siigno
-const signTextElement = document.getElementById('sign-text');
-signTextElement.style.display = 'block';
-signTextElement.innerHTML = `<p>${signText}</p>`;
 
-// Removendo a classe não utilizada
-resultContainer.classList.add('result-container');
-
-formSection.style.display = 'none';
-footer.style.display = 'none';
-textInfoElement.style.display = 'none';
 
 
 
     
 }
-    

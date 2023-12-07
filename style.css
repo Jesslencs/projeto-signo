@@ -254,4 +254,8 @@ h2{
     .sign-text p {
         animation: headShake 1s ease-in-out;
     }
-    
+
+
+    .textinfo, section {
+    display: block; /* ou qualquer outro valor desejado, como flex ou grid */
+}
