@@ -68,7 +68,7 @@ section{
 }
 
 #titleh{
-    color: blueviolet;
+    color: #ff6347;
     font-size: 1.5em;
     padding: 20px;
     font-family: 'Vina Sans', cursive;
@@ -131,7 +131,7 @@ transform: scale(1.2);
 
 }
 h2{
-    color:blueviolet ;
+    color:#ff6347 ;
     text-align: center;
     font-family: 'Vina Sans', cursive;
     font-size: 30px;
@@ -154,6 +154,9 @@ h2{
     position: relative;
     z-index: 1;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin: 5vh auto;
+    width: 80%;
+    outline: none;
 
 }
 
@@ -161,7 +164,7 @@ h2{
 
     color: #ff6347;
     font-size: 28px;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
 
     
 }
@@ -171,17 +174,19 @@ h2{
     padding: 5px;
     border-radius: 5px;
     color: white;
+
 }
 
 .result-container p {
     
     color: #4caf50;
     font-size: 18px;
-    margin-top: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 
 .result-container h3 {
-    margin-top: 10px;
+    margin-top: 15px;
 }
 
 .result-container h3 span {
@@ -253,9 +258,17 @@ h2{
     /* Aplica a animação headShake ao texto */
     .sign-text p {
         animation: headShake 1s ease-in-out;
+        margin-bottom: 10px;
     }
 
 
     .textinfo, section {
     display: block; /* ou qualquer outro valor desejado, como flex ou grid */
 }
+
+.sign-emojis {
+    font-size: 38px; /* Ajuste o tamanho conforme necessário */
+    margin-top: 15px;
+}
+
+

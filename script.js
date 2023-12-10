@@ -3,6 +3,8 @@ function CalculateSign() {
     const formSection = document.querySelector('section');
     const resultContainer = document.getElementById('result-container');
     const signInfoSection = document.querySelector('.textinfo');
+
+
    
     
     
@@ -53,6 +55,11 @@ function CalculateSign() {
         signText = 'Piscianos costumam ter forte intuição e guiam as ações com base nas emoções. Peixes está ligado a diversas virtudes, são compreensivos, compassivos, empáticos e humildes. Por amor ao próximo, são capazes de se doar totalmente a algum objetivo, esquecendo, às vezes, até de si próprios.';
     }
 
+    
+   
+    
+
+    
 
     
     
