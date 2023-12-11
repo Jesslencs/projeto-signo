@@ -53,8 +53,8 @@ a:hover{
 }
 
 section{
-    padding-bottom: 50px;
-    margin-bottom: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 10px;
     background: black;
     opacity: 0.8;
     width: 50%;
@@ -70,15 +70,16 @@ section{
 #titleh{
     color: #ff6347;
     font-size: 1.5em;
-    padding: 20px;
+    padding: 15px;
     font-family: 'Vina Sans', cursive;
     
 }
 
 p{
     font-family: 'Noto Serif Khojki', serif;
-    font-size: 20px;
+    font-size: 16px;
     padding-right: 15px;
+    margin-bottom: 5px;
     
 
 }
@@ -143,7 +144,7 @@ h2{
 }
 
     
-/* Adicione ao seu arquivo CSS existente */
+
 
 .result-container{
     
@@ -190,9 +191,9 @@ h2{
 }
 
 .result-container h3 span {
-    background-color: #4CAF50; /* Cor de fundo para destacar */
-    padding: 5px; /* Adiciona um pequeno preenchimento */
-    border-radius: 5px; /* Adiciona bordas arredondadas */
+    background-color: #4CAF50; 
+    padding: 5px; 
+    border-radius: 5px; 
     color: white; /* Cor do texto dentro do span */
 }
 
@@ -255,7 +256,7 @@ h2{
         }
     }
     
-    /* Aplica a animação headShake ao texto */
+    
     .sign-text p {
         animation: headShake 1s ease-in-out;
         margin-bottom: 10px;
@@ -263,12 +264,15 @@ h2{
 
 
     .textinfo, section {
-    display: block; /* ou qualquer outro valor desejado, como flex ou grid */
+    display: block; 
 }
 
 .sign-emojis {
-    font-size: 38px; /* Ajuste o tamanho conforme necessário */
+    font-size: 38px; 
     margin-top: 15px;
 }
 
 
+.footer-hidden {
+    display: none;
+}
