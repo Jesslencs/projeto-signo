@@ -7,7 +7,7 @@ Bem-vindo ao **Projeto-Signo**! Este é um projeto simples e divertido que utili
 
 - # Imagens do projeto-signo 📷
 - Fórmulario
-  ![Captura de tela 2023-12-11 172624](https://github.com/Jesslencs/projeto-signo/assets/128511563/9b92530e-72ef-41f1-9a8f-552fd0c7676f)
+  ![birthdata](https://github.com/Jesslencs/projeto-signo/assets/128511563/c2677894-51ec-4a51-8da0-e9fd39c28b3a)
 - Resultado do Fórmulário
  ![Captura de tela 2023-12-11 172853](https://github.com/Jesslencs/projeto-signo/assets/128511563/49c4f0f0-c460-4387-a2c1-90391c9bdb7c)
 ## Tecnologias Utilizadas
